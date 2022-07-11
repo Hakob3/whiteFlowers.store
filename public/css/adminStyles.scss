@@ -1,0 +1,47 @@
+.order-table {
+    td {
+        padding: 10px 10px;
+        border-bottom: 1px solid #ddd;
+
+        p {
+            margin-bottom: 0.5rem;
+            line-height: 1;
+        }
+    }
+
+    small {
+        font-size: 72%;
+        font-weight: 400;
+        color: #53809a;
+        margin: 0 15px 0 0;
+    }
+}
+
+
+.text-right {
+    text-align: right;
+}
+
+.table {
+    &.table-sm {
+        td, th {
+            padding: 3px 4px;
+            font-size: 12px;
+        }
+    }
+
+    thead {
+        th {
+            text-transform: lowercase;
+        }
+    }
+
+    .disabled {
+        opacity: 0.5;
+    }
+}
+
+.no-border {
+    border: none;
+    outline: none;
+}
